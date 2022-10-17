@@ -1,0 +1,114 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f68016;
+}
+
+.form {
+    background-color: #FFF;
+    border-radius: 6px;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+}
+
+.form-content img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #212f22;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.field input, 
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.field input {
+    outline: none;
+    border: 1px solid #CACACA;
+    padding: 0 15px;
+}
+
+.field input:focus {
+    border-bottom-width: 2px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.form-link {
+    margin-top: 10px;
+    text-align: end;
+}
+
+.form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0171d3;
+}
+
+.form-link a:hover {
+    text-decoration: underline;
+}
+
+.field button {
+    background-color: #0171d3;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.field button:hover {
+    opacity: 0.8;
+}
+
+.form-link .back-index {
+    color: #808080;
+}
